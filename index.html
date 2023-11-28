@@ -19,6 +19,24 @@
     <div class="document-title">Kongkow Cafe Menu 2023</div>
     <div class="price-note">All prices are in thousand rupiah</div>
   </div>
+  <div class="menu-area">
+    <div class="menu-row">
+      <div class="menu-tile">
+        <!--TODO: Menu content-->
+      </div>
+      <div class="menu-tile">
+        <!--TODO: Menu content-->
+      </div>
+    </div>
+    <div class="menu-row">
+      <div class="menu-tile">
+        <!--TODO: Menu content-->
+      </div>
+      <div class="menu-tile">
+        <!--TODO: Menu content-->
+      </div>
+    </div>
+  </div>
 </body>
 
 <style>
@@ -72,6 +90,24 @@
   div.price-note {
     font-size: 12px;
     margin-top: 8px;
+  }
+
+  div.menu-area {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  div.menu-row {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  div.menu-tile {
+    flex: 1;
+    height: 300px;
+    background-color: lightgray;
   }
 </style>
 
