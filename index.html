@@ -42,9 +42,7 @@
       </div>
       <div class="menu-tile">
         <div class="menu-photo">
-          <img
-            src="https://www.recipetineats.com/wp-content/uploads/2023/05/Garlic-cheese-pizza_9.jpg"
-            alt="pizza">
+          <img src="https://www.recipetineats.com/wp-content/uploads/2023/05/Garlic-cheese-pizza_9.jpg" alt="pizza">
         </div>
         <div class="menu-tile-name">Triple Cheese Pizza</div>
         <div class="menu-tile-description">
@@ -83,7 +81,7 @@
       <div class="menu-tile">
         <div class="menu-photo">
           <img
-            src="https://cdn.vox-cdn.com/thumbor/0spbbgyWxgwuWpk8QOCZi2Ym3Kk=/0x0:1599x1066/1200x900/filters:focal(673x406:927x660)/cdn.vox-cdn.com/uploads/chorus_image/image/63217666/i_qNz6LTF_X3.97.jpg"
+            src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_512,h_512/https://www.adityabirlacapital.com/healthinsurance/active-together/wp-content/uploads/2019/12/How-Are-Espressos-Good-For-Health_blog-1.gif"
             alt="coffee">
         </div>
         <div class="menu-tile-name">Coffee</div>
@@ -123,7 +121,7 @@
     flex-direction: row;
     justify-content: center;
     padding: 16px;
-    background-color: #F44336;
+    background-color: #f44336;
     color: white;
     font-size: 16px;
     font-weight: 500;
@@ -178,7 +176,7 @@
   div.menu-photo img {
     aspect-ratio: 1;
     object-fit: cover;
-    width: 100%;
+    max-width: 100%;
   }
 
   div.menu-tile-name {
@@ -213,6 +211,10 @@
   @media (min-width: 800px) {
     div.menu-area {
       flex-direction: row;
+    }
+
+    div.menu-row {
+      flex: 1;
     }
   }
 </style>
